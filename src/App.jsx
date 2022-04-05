@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import { Filter } from "./components/Filter/Filter";
 import ContactsList from "./components/ContactsList/ContactsList";
 import { useDispatch } from "react-redux";
-import { fetchContacts } from "./components/services/api";
+import { fetchContacts } from "./services/api";
 
 const App = () => {
   const dispatch = useDispatch();

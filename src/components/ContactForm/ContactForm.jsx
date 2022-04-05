@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ContactForm.module.css";
 import { nanoid } from "nanoid";
 import { useDispatch, useSelector } from "react-redux";
-import { addContact } from "../services/api";
+import { addContact } from "../../services/api";
 
 const ContactForm = () => {
   const nameInputId = nanoid();
